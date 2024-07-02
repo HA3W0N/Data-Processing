@@ -1,0 +1,6 @@
+Sequence Start : 1 , Sequence End : 6, Random Factor of DownSampling : 0.16 
+Downsampling Frame Number : 1 
+Downsampling Frame Number : 2 
+Downsampling Frame Number : 3 
+Downsampling Frame Number : 4 
+Downsampling Frame Number : 5 

@@ -1,0 +1,9 @@
+Sequence Start : 33 , Sequence End : 53, Random Factor of DownSampling : 0.2 
+Stop Frame : 33 
+Stop Frame : 34 
+Stop Frame : 35 
+Stop Frame : 36 
+Stop Frame : 37 
+Stop Frame : 38 
+Stop Frame : 39 
+Stop Frame : 40 

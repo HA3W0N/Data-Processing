@@ -1,0 +1,26 @@
+Sequence Start : 2 , Sequence End : 27, Random Factor of DownSampling : 0.1 
+Downsampling Frame Number : 2 
+Downsampling Frame Number : 3 
+Downsampling Frame Number : 4 
+Downsampling Frame Number : 5 
+Downsampling Frame Number : 6 
+Downsampling Frame Number : 7 
+Downsampling Frame Number : 8 
+Downsampling Frame Number : 9 
+Downsampling Frame Number : 10 
+Downsampling Frame Number : 11 
+Downsampling Frame Number : 12 
+Downsampling Frame Number : 13 
+Downsampling Frame Number : 14 
+Downsampling Frame Number : 15 
+Downsampling Frame Number : 16 
+Downsampling Frame Number : 17 
+Downsampling Frame Number : 18 
+Downsampling Frame Number : 19 
+Downsampling Frame Number : 20 
+Downsampling Frame Number : 21 
+Downsampling Frame Number : 22 
+Downsampling Frame Number : 23 
+Downsampling Frame Number : 24 
+Downsampling Frame Number : 25 
+Downsampling Frame Number : 26 
