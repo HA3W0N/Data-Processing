@@ -15,7 +15,8 @@ def Resampling(img, Factor):
     result = cv2.resize(img, (0,0), fx = Factor, fy = Factor, interpolation= cv2.INTER_LINEAR)
     return result
 
-def Additive_Noise(img, std):
+def Additive_Noise(img, variance):
+    std = np.sqrt(variance)
     noise = np.random.normal(0, std, img.shape)
     result = noise + img
     result = np.clip(result,0,255).astype(np.uint8)

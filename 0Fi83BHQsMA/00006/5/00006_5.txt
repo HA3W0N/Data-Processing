@@ -1,6 +1,0 @@
-Sequence Start : 6 , Sequence End : 11, Random Factor of DownSampling : 0.19 
-Stop Frame : 6 
-Stop Frame : 7 
-Stop Frame : 8 
-Stop Frame : 9 
-Stop Frame : 10 

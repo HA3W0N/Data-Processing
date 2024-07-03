@@ -1,2 +1,0 @@
-Sequence Start : 4 , Sequence End : 24, Random Factor of DownSampling : 0.2 
-There is No Image Processing or DROP
