@@ -1,11 +1,5 @@
 Metadata of Data Corruption with Pixel-Downsample/Drop/Noise
 
  File Name / Type / Frame Count / Corrupt Start / Corrupt End / Duration / Output File
- ./zuYzOn0U2PY/00005.mp4 Freeze 32.0 30 45 15 00005_Freeze.mp4 
- ./zuYzOn0U2PY/00001.mp4 None 44.0 15 35 20 00001_None.mp4 
- ./zuYzOn0U2PY/00002.mp4 None 31.0 10 25 15 00002_None.mp4 
- ./zuYzOn0U2PY/00003.mp4 None 31.0 16 26 10 00003_None.mp4 
- ./0Fi83BHQsMA/00006.mp4 Downsample 23.0 19 24 5 00006_Downsample.mp4 
- ./0Fi83BHQsMA/00005.mp4 None 73.0 36 51 15 00005_None.mp4 
- ./0Fi83BHQsMA/00002.mp4 None 41.0 18 23 5 00002_None.mp4 
- ./0Fi83BHQsMA/00004.mp4 Freeze 45.0 40 65 25 00004_Freeze.mp4 
+ ./8Z24LCysq3A/00001.mp4 GaussianNoise 71.0 57 72 15 00001_GaussianNoise.mp4 
+ ./9CqVYUOjHLw/00002.mp4 None 35.0 29 34 5 00002_None.mp4 

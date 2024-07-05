@@ -1,0 +1,15 @@
+Metadata of Audio Drop
+
+ File Name / Sampling Rate / Frame Count / Drop Start / Drop End / Drop Length / Output File 
+ ./1US4jjWtua8/00005.wav 16000 19456 10171 14971 4800 ./1US4jjWtua8/00005_drop.wav 
+ ./1US4jjWtua8/00001.wav 16000 24576 2094 8494 6400 ./1US4jjWtua8/00001_drop.wav 
+ ./1US4jjWtua8/00002.wav 16000 22528 19630 24430 4800 ./1US4jjWtua8/00002_drop.wav 
+ ./1US4jjWtua8/00004.wav 16000 24576 14441 20841 6400 ./1US4jjWtua8/00004_drop.wav 
+ ./1L6lSFiV4xo/00002.wav 16000 49152 38387 44787 6400 ./1L6lSFiV4xo/00002_drop.wav 
+ ./1L6lSFiV4xo/00003.wav 16000 17408 7841 11041 3200 ./1L6lSFiV4xo/00003_drop.wav 
+ ./1PNX6MSdVsk/00009.wav 16000 55296 None None None ./1PNX6MSdVsk/00009_none.wav 
+ ./1PNX6MSdVsk/00010.wav 16000 40960 2836 9236 6400 ./1PNX6MSdVsk/00010_drop.wav 
+ ./1PNX6MSdVsk/00005.wav 16000 60416 12846 17646 4800 ./1PNX6MSdVsk/00005_drop.wav 
+ ./1PNX6MSdVsk/00001.wav 16000 25600 8700 10300 1600 ./1PNX6MSdVsk/00001_drop.wav 
+ ./1PNX6MSdVsk/00007.wav 16000 29696 19495 22695 3200 ./1PNX6MSdVsk/00007_drop.wav 
+ ./1PNX6MSdVsk/00011.wav 16000 39936 None None None ./1PNX6MSdVsk/00011_none.wav 

@@ -44,15 +44,17 @@ def create_video(root, video_title, Original_fps, Corrupt_option):
     out.release()
 
 if __name__ == "__main__":
+    frame_list = []
     metadata_file = "DataCorruption.txt"
     with open(metadata_file, "w")as f:
         f.write("Metadata of Data Corruption with Pixel-Downsample/Drop/Noise\n")
-        f.write("\n File Name / Type / Frame Count / Corrupt Start / Corrupt End / Duration / Output File\n")
+        f.write("\n File Name / Type / Frame Count / Corrupt Start / Corrupt End / Duration / Output File \n")
     # Use os.walk to traverse through all subfolders
     for root, dirs, files in os.walk('.'):
     # Use glob to filter only .mp4 files
         mp4_files = list(glob.glob(os.path.join(root, '*.mp4')))
         for videos in mp4_files:
+            
             fps_list = [5, 10, 15, 20, 25]
             fps = random.choice(fps_list)
             count = 0
@@ -60,6 +62,7 @@ if __name__ == "__main__":
             print("MP4 Files : ", videos)
 
             video = cv2.VideoCapture(videos)
+            frame_list.append(video.get(cv2.CAP_PROP_FRAME_COUNT))
             Original_fps = video.get(cv2.CAP_PROP_FPS)
             video_title = os.path.splitext(os.path.basename(videos))[0]
             save_folder = os.path.join(root,video_title)
@@ -119,3 +122,4 @@ if __name__ == "__main__":
             with open(metadata_file, "a") as f:
                 f.write(" {} {} {} {} {} {} {} \n".format(videos,Corrupt_option,video.get(cv2.CAP_PROP_FRAME_COUNT),seqstart, seqend, fps, video_title+"_"+Corrupt_option+".mp4"))
             video.release()
+    print("Finish. There is {} mp4 files, Maximum frame : {}, Minimum frame : {} , Mean : {} ".format(len(frame_list), max(frame_list), min(frame_list), sum(frame_list)/len(frame_list)))
